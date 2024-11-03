@@ -6,7 +6,7 @@ from re import findall
 
 first_time: bool = True
 def download(driver) -> None:
-    globel first_time
+    global first_time
     if first_time:
         input("Please press 'Enter Key' after luging in the website :)\n")
     first_time = False
